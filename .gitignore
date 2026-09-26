@@ -1,0 +1,21 @@
+# Backend (Maven/Java)
+team_task_board/target/
+team_task_board/src/main/resources/application.properties
+
+# Frontend (Node/Next.js)
+team_task_board_frontend/node_modules/
+team_task_board_frontend/.next/
+team_task_board_frontend/.env*
+
+# IDE
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+log.txt
+test-results.txt
