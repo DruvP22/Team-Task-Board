@@ -1,6 +1,3 @@
-
-
-Readme · MD
 # Team Task Board
  
 A full-stack task management API with role-based workflows, JWT authentication,
