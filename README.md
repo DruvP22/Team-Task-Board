@@ -33,8 +33,8 @@ and status changes.
 1. Clone the repo and navigate into it.
 2. Copy the example config and fill in your own values:
 ```
-   cp src/main/resources/application.properties.example 
-   src/main/resources/application.properties
+   cp team_task_board/src/main/resources/application.properties.example 
+   team_task_board/src/main/resources/application.properties.example
 ```
 3. Set the required environment variables (`JWT_SECRET` and, optionally,
    `SLACK_WEBHOOK_URL` for the Slack integration feature):
