@@ -1,9 +1,5 @@
 # ADR 001: Solving the N+1 Query Issue Using @EntityGraph
 
-## Status
-
-Accepted
-
 ## Context
 
 GET /api/tasks endpoint provides a paginated list of tasks. Each task contains information about its assignee (email) and project id. Initially, there was no special handling of the Task.assignee (@ManyToOne) and Task.project (@ManyToOne) relationships, meaning that Hibernate performed lazy loading.
